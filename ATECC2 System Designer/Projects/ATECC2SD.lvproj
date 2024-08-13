@@ -14,14 +14,12 @@
 		<Item Name="Applications" Type="Folder" URL="../../Applications">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Ballast.ctl" Type="VI" URL="../../Option Type Defs/Ballast.ctl"/>
-		<Item Name="Ballast.vi" Type="VI" URL="../../Option Logic/Ballast.vi"/>
-		<Item Name="Full System Configuration.ctl" Type="VI" URL="../../Option Type Defs/Full System Configuration.ctl"/>
-		<Item Name="Middle Rail.ctl" Type="VI" URL="../../Option Type Defs/Middle Rail.ctl"/>
-		<Item Name="Middle Rail.vi" Type="VI" URL="../../Option Logic/Middle Rail.vi"/>
-		<Item Name="Parts List.ctl" Type="VI" URL="../../Option Type Defs/Parts List.ctl"/>
-		<Item Name="Rack.ctl" Type="VI" URL="../../Option Type Defs/Rack.ctl"/>
-		<Item Name="Rack.vi" Type="VI" URL="../../Option Logic/Rack.vi"/>
+		<Item Name="Option Logic" Type="Folder" URL="../../Option Logic">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Option Type Defs" Type="Folder" URL="../../Option Type Defs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
